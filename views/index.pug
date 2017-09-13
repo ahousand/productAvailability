@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+
+
+
+  if error
+    p Error getting product count.
+  else
+    p We currently have !{data.product_count} available products.

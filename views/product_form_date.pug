@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 #{title}
+
+  p Search products by date:
+  form(method='POST' action='')
+    div.form-group
+      label(for='date') Date:
+      input#date.form-control(type='date', name='date')
+      br
+      button.btn.btn-primary(type='submit') Submit

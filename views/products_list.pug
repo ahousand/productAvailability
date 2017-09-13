@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+
+  ul
+  each product in products_list
+    li <u>#{product.name.toUpperCase()}</u> - #{product.description}
+  else
+    li There are no products.
+  br
+
+  a(href='/products/search') Search products by Date
+  br
+  a(href='/products/searchWithName') Search products by Date and Name

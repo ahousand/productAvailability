@@ -1,0 +1,12 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 1;
+    list-style: disc;
+}
+
+.backimg{
+  background-image: url(https://elainefogartyclass.files.wordpress.com/2015/10/daffodils.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+}

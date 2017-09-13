@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1= title
+  ul
+    each product in products_list
+      li New shipments totalling #{product.count} of <b>#{product.name.toUpperCase()}</b> will be arriving on:
+        ul
+          each date, index in product.available_dates
+            li #{product.available_dates[index]} - <u>Spoils on</u>: #{product.bad_dates[index]}
+
+      br
+    else
+      li We do not have availability information for that given date.
+    br
+
+
+  a(href='/products/search') Search products by Date
+  br
+  a(href='/products/searchWithName') Search products by Date and Name
