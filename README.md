@@ -2,11 +2,11 @@
 ###### Alex Housand
 
 ### Requirements/Dependencies
-..* Node.js - version 6.9.0 or higher can be downloaded here: https://nodejs.org/en/download/,
-..* Express - version 4.15.2
-..* MongoDB
-..* mongoose - version 4.11.10 or higher
-..* Pug - version 2.0.0 (this is in beta)
+1. Node.js - version 6.9.0 or higher can be downloaded here: https://nodejs.org/en/download/
+2. Express - version 4.15.2
+3. MongoDB
+4. mongoose - version 4.11.10 or higher
+5. Pug - version 2.0.0 (this is in beta)
 
 #### Installation
 1) Clone this repository.
