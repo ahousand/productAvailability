@@ -14,11 +14,12 @@ To start:
 'npm run start'
 4) Open a web browser and navigate to http://localhost:8080
 
-5) If that doesn't work try the following:
-  Navigate to the folder you have saved this repository in the command line/terminal.
+If the above does not work try following the steps below:
+
+5) Navigate to the folder you have saved this repository in the command line/terminal.
   -run npm install express --save
   -run npm install mongodb --save
   -run npm install mongoose
   -run npm install pug
-6)Run 'npm run start'
-7)Open a web broswer and navigate to http://localhost:8080
+6) Run 'npm run start'
+7) Open a web broswer and navigate to http://localhost:8080
